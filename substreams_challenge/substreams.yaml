@@ -21,13 +21,13 @@ binaries:
     file: ./target/wasm32-unknown-unknown/release/substreams.wasm
 
 modules:
-  # - name:
-  #   kind:
-  #   initialBlock: 15000000
-  #   inputs:
-  #     - source: sf.ethereum.type.v2.Block
-  #   output:
-  #     type: proto:contract.v1.Transfers
+  - name: map_apes
+    kind: map
+    initialBlock: 15000000
+    inputs:
+      - source: sf.ethereum.type.v2.Block
+    output:
+      type: proto:contract.v1.Transfers
 
   # - name:
   #   kind:

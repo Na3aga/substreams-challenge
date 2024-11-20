@@ -18,22 +18,40 @@ substreams_ethereum::init!();
 
 #[substreams::handlers::map]
 fn map_apes(blk: eth::Block) -> Result<Transfers, substreams::errors::Error> {
-    todo!("1. find event address from the block");
+    // todo!("1. find event address from the block");
 
+    let transfers = blk
+        .logs()
+        .filter_map(|log| {
+            if TransferEvent::match_log(log.log) {
+                let token_meta = TokenMeta::new(&log.log.address);
+                if token_meta.name.contains("Ape") {
+                    Some(Transfer {
+                        address: Hex::encode(&log.log.address),
+                        name: token_meta.name,
+                        symbol: token_meta.symbol,
+                    })
+                } else {
+                    None
+                }
+            } else {
+                None
+            }
+        })
+        .collect();
+
+    // let event_address = blk.
     // Making rpc calls for token metadata
-    let token_meta = TokenMeta::new(todo!("2. event address goes here"));
 
-    todo!("3. filter by name");
+    // todo!("3. filter by name");
 
-    Transfer {
-        address: Hex::encode(String::new()), // TODO! 4. replace `String::new()` with event address")
-        name: token_meta.name,
-        symbol: token_meta.symbol,
-    };
+    // Transfer {
+    //     address: Hex::encode(String::new()), // TODO! 4. replace `String::new()` with event address")
+    //     name: token_meta.name,
+    //     symbol: token_meta.symbol,
+    // };
 
-    Ok(Transfers {
-        transfers: todo!("5. vector of Transfer protobufs"),
-    })
+    Ok(Transfers { transfers })
 }
 
 #[substreams::handlers::store]

@@ -1,8 +1,8 @@
-/Users/ayechan/projects/scaffold-eth-substreams-challenge/packages/substreams_challenge/target/wasm32-unknown-unknown/release/deps/impl_serde-71653e582e699b93.rmeta: /Users/ayechan/.cargo/registry/src/github.com-1ecc6299db9ec823/impl-serde-0.3.2/src/lib.rs /Users/ayechan/.cargo/registry/src/github.com-1ecc6299db9ec823/impl-serde-0.3.2/src/serialize.rs
+/Users/na3aga/DEV/Boosty/scaffold-eth-substreams-challenge/substreams_challenge/target/wasm32-unknown-unknown/release/deps/impl_serde-71653e582e699b93.rmeta: /Users/na3aga/.cargo/registry/src/github.com-1ecc6299db9ec823/impl-serde-0.3.2/src/lib.rs /Users/na3aga/.cargo/registry/src/github.com-1ecc6299db9ec823/impl-serde-0.3.2/src/serialize.rs
 
-/Users/ayechan/projects/scaffold-eth-substreams-challenge/packages/substreams_challenge/target/wasm32-unknown-unknown/release/deps/libimpl_serde-71653e582e699b93.rlib: /Users/ayechan/.cargo/registry/src/github.com-1ecc6299db9ec823/impl-serde-0.3.2/src/lib.rs /Users/ayechan/.cargo/registry/src/github.com-1ecc6299db9ec823/impl-serde-0.3.2/src/serialize.rs
+/Users/na3aga/DEV/Boosty/scaffold-eth-substreams-challenge/substreams_challenge/target/wasm32-unknown-unknown/release/deps/libimpl_serde-71653e582e699b93.rlib: /Users/na3aga/.cargo/registry/src/github.com-1ecc6299db9ec823/impl-serde-0.3.2/src/lib.rs /Users/na3aga/.cargo/registry/src/github.com-1ecc6299db9ec823/impl-serde-0.3.2/src/serialize.rs
 
-/Users/ayechan/projects/scaffold-eth-substreams-challenge/packages/substreams_challenge/target/wasm32-unknown-unknown/release/deps/impl_serde-71653e582e699b93.d: /Users/ayechan/.cargo/registry/src/github.com-1ecc6299db9ec823/impl-serde-0.3.2/src/lib.rs /Users/ayechan/.cargo/registry/src/github.com-1ecc6299db9ec823/impl-serde-0.3.2/src/serialize.rs
+/Users/na3aga/DEV/Boosty/scaffold-eth-substreams-challenge/substreams_challenge/target/wasm32-unknown-unknown/release/deps/impl_serde-71653e582e699b93.d: /Users/na3aga/.cargo/registry/src/github.com-1ecc6299db9ec823/impl-serde-0.3.2/src/lib.rs /Users/na3aga/.cargo/registry/src/github.com-1ecc6299db9ec823/impl-serde-0.3.2/src/serialize.rs
 
-/Users/ayechan/.cargo/registry/src/github.com-1ecc6299db9ec823/impl-serde-0.3.2/src/lib.rs:
-/Users/ayechan/.cargo/registry/src/github.com-1ecc6299db9ec823/impl-serde-0.3.2/src/serialize.rs:
+/Users/na3aga/.cargo/registry/src/github.com-1ecc6299db9ec823/impl-serde-0.3.2/src/lib.rs:
+/Users/na3aga/.cargo/registry/src/github.com-1ecc6299db9ec823/impl-serde-0.3.2/src/serialize.rs:
